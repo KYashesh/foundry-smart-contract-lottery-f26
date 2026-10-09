@@ -4,6 +4,14 @@ A decentralized, tamper-proof raffle smart contract built using Solidity and the
 
 ---
 
+## 🛠️ Tech Stack 
+- **Solidity** — Smart contract development
+- **Foundry** — Compilation, deployment, and testing
+- **Chainlink VRF** — Verifiable random number generation
+- **Chainlink Automation** — Automated lottery execution
+- **Ethereum / EVM** — Smart contract execution
+- **Git & GitHub** — Version control
+
 ## 🎯 What Do We Want It To Do?
 
 1. **Ticket Entry System**:
@@ -16,6 +24,17 @@ A decentralized, tamper-proof raffle smart contract built using Solidity and the
    - **Chainlink Automation**: Acts as a decentralized cron job using `checkUpkeep` and `performUpkeep` to execute the draw when interval and state requirements are met.
 
 ---
+
+## 📂 Project Structure 
+```text 
+foundry-smart-contract-lottery-f26/
+├── src/ # Lottery smart contract
+├── script/ # Deployment and interaction scripts
+├── test/ # Unit and integration tests
+├── lib/ # Dependencies
+├── foundry.toml # Foundry configuration
+└── README.md # Project documentation
+```
 
 ## ⚙️ Configuration & Changes You Must Make
 
